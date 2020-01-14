@@ -44,3 +44,4 @@ If you do not specify a product ID, the script will instead target SIMs in your 
 - Implement functionality to set MB limit when reactivating
 - Implement update data allowance endpoint
 - Implement releasing SIMs endpoint.
+- Overhaul config.js to .env configuration

@@ -8,6 +8,7 @@
   "author": "Matthew Stanley",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "request": "^2.88.0"
   }
 }

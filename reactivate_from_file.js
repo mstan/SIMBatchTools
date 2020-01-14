@@ -1,9 +1,8 @@
 const { sims } = require('./lib');
-let { product_id } = require('./config.js');
-let fs = require('fs');
+let { product_id } = require('./config.js')
 
 async function main() {
-	const simsList = await sims.getList(product_id);
+	const simsList = fs.readFileSync('./list.csv', 'utf8').split('\r\n');
 	return simsList;
 }
 
